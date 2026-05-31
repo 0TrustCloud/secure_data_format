@@ -18,7 +18,7 @@ SDF acts as a universal state machine. It consumes OpenGraph-style scripts, comp
 ## Installation
 
 ```bash
-go get [github.com/0TrustCloud/secure_data_format](https://github.com/0TrustCloud/secure_data_format)
+go get github.com/0TrustCloud/secure_data_format
 
 ```
 
