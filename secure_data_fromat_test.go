@@ -53,6 +53,8 @@ func (m *mockKVStore) Delete(txn ultimate_db.TxnHandle, key []byte) error {
 	return nil
 }
 
+func (m *mockKVStore) Flush() error { return nil }
+
 func (m *mockKVStore) NewIterator(txn ultimate_db.TxnHandle, prefix []byte) ultimate_db.KVIterator {
 	return nil
 }
